@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+    body{
+        border-radius: 10px;
+        background: transparent;
+    }
+    section{
+        background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+        width: 400px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    h1{
+        color: white;
+    }
+    #click{
+        background-image: radial-gradient( circle 470px at 49.5% 48.5%,  rgba(3,76,153,1) 0%, rgba(0,0,0,1) 95.1% );
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+        color: antiquewhite;
+    }
+    #currentUrl{
+        color:red;
+    }
+</style>
+<body>
+    <section>
+        <h1>Phishing URL Detector</h1>
+        <h2 id="currentUrl">Fishing or not shown up here</h2>
+        <button id="click">Check</button>
+        <script src="extension.js"></script> 
+    </section>
+</body>
+        
+</html>
